@@ -1,1 +1,1 @@
-from fluent_pipelines.pipe import PyPipeline as pipeline
+from fluent_pipelines.pipe import FluentPipeline as pipeline, PipelineOperation

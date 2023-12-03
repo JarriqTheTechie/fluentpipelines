@@ -13,10 +13,10 @@ class FastInstantiateMeta(type):
         return getattr(instantiated, attribute)
 
 
-T = TypeVar('T', bound='Pipeline')
+T = TypeVar('T', bound='FluentPipeline')
 
 
-class PyPipeline(metaclass=FastInstantiateMeta):
+class FluentPipeline(metaclass=FastInstantiateMeta):
     def __init__(self):
         self.operations = None
 
