@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="fluentpipelines",
-    version="0.1.0",
+    version="0.1.1",
     author="Jarriq Rolle",
     author_email="jrolle@bnbbahamas.com",
     description="A Python package for building fluent pipelines",
